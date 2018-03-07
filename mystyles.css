@@ -1,5 +1,12 @@
 /* index css */
+html,
+body {
 
+    background: white;
+    font-family: verdana, geneva, sans-serif;
+    font-size: 9.3px;
+    -webkit-font-smoothing: antialiased;
+}
 .site {
   position: absolute;
   hieght: 100%;
