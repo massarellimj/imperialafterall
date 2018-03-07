@@ -1,12 +1,19 @@
 /* index css */
 html,
 body {
-
     background: white;
     font-family: verdana, geneva, sans-serif;
     font-size: 9.3px;
     -webkit-font-smoothing: antialiased;
 }
+
+div {
+    display: block;
+    position: relative;
+    margin-left: auto;
+    margin-right: auto;
+}
+    
 .site {
   position: absolute;
   hieght: 100%;
