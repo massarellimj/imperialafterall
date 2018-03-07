@@ -10,6 +10,56 @@
   <link rel="stylesheet" href="mystyles.css">
 
   <script type="text/javascript" src="/js/index.js"></script>
+  <style>
+    .logo {
+            animation-name: logoSlideLeft;
+            animation-duration: 1s;
+            transition-timing-function: cubic-bezier(0, 0.73, 0.95, 1);
+     }
+     .navbar {
+            animation-name: navSlideDown;
+            animation-duration: 1.5s;
+            transition-timing-function: cubic-bezier(0.78, 0.03, 0.76, 0.77);
+      }
+      #news {
+            animation-name: newsFadeIn;
+            animation-duration: 3s;
+      }
+      .footer {
+            animation-name: footerFadeIn;
+            animation-duration: 3.5s;
+      }
+
+      @keyframes logoSlideLeft {
+            0% {
+                opacity: 0;
+                transform: translateX(50%);
+            } 100% {
+                opacity: 1;
+                transform: none;
+            }
+      }
+      @keyframes navSlideDown {
+            0% {
+                opacity: 0;
+                transform: translateY(-500px);
+            } 60% {  opacity: 0;
+            } 75% {  opacity: 1;
+            } 100% { transform: none;
+            }
+      }
+      @keyframes newsFadeIn {
+            0% {     opacity: 0;
+            } 100% { opacity: 1;
+            }
+      }
+      @keyframes footerFadeIn {
+            0% {     opacity: 0;
+            } 50% {  opacity: 0;
+            } 100% { opacity: 1;
+            }
+      }
+  </style>
 </head>
 
 <body>
