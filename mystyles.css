@@ -20,8 +20,6 @@ div {
   width: 100%;
   left: 0px;
   top: 0px;
-  margin-left: auto;
-  margin-right: auto;
   overflow: auto;
   min-width: 900px;
   text-align: center;
@@ -36,10 +34,6 @@ div {
 }
 .navbar {
   display: inline-block;
-  position: relative;
-  margin-left: auto;
-  margin-right: auto;
-  background: none;
   margin-top: 20px;
   z-index: 0;
 }
@@ -67,7 +61,6 @@ div {
   z-index: 0;
 }
 .soundcloud {
-  display: block;
   margin-top: 50px;
   z-index: 0;
 }
@@ -79,6 +72,7 @@ div {
   margin-top: 100px;
   z-index: 0;
 }
+
 p {
   display: block;
   position: relative;
