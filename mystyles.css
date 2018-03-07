@@ -111,52 +111,6 @@ a:active {
   color: black;
 }
 
-/* index keyframes */
-
-@keyframes logoSlideLeft {
-  0% {
-    opacity: 0;
-    transform: translateX(50%);
-  }
-  100% {
-    opacity: 1;
-    transform: none;
-  }
-}
-@keyframes navSlideDown {
-  0% {
-    opacity: 0;
-    transform: translateY(-500px);
-  }
-  60% {
-    opacity: 0;
-  }
-  75% {
-    opacity: 1;
-  }
-  100% {
-    transform: none;
-  }
-}
-@keyframes newsFadeIn {
-  0% {
-    opacity: 0;
-}
-  100% {
-    opacity: 1;
-  }
-}
-@keyframes footerFadeIn {
-  0% {
-    opacity: 0;
-  }
-  50% {
-    opacity: 0;
-  }
-  100% {
-    opacity: 1;
-  }
-}
 
 /* music keyframes */
 
